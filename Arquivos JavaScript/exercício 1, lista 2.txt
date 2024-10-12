@@ -1,0 +1,71 @@
+EXERCICIO 01
+
+var inicio = Number(prompt ("Primeiro número: "))
+var final = Number(prompt ("Segundo número: "))
+var soma = 0
+for(inicio; inicio<=final; inicio++){
+    soma = soma + inicio
+}
+alert (soma)
+
+
+
+
+EXERCICIO 02
+
+var num = 2
+var tabuada = 0, i= 1
+for(i = 1; i<=10; i++){
+    tabuada = num*i
+    console.log(num,"*",i,"=",tabuada,"\n")
+}
+    for(i = 1; i<=10; i++){
+        tabuada = num/i
+        console.log(num,"/",i,"=",tabuada,"\n")
+    }
+
+
+for(i = 1; i<=10; i++){
+    tabuada = num+i
+    console.log(num,"+",i,"=",tabuada,"\n")
+}
+
+
+for(i = 1; i<=10; i++){
+    tabuada = num-i
+    console.log(num,"-",i,"=",tabuada,"\n")
+}
+
+
+
+
+EXERCICIO 03
+
+var tam = prompt("Tamanho da garrafa de café em ml: ")
+var quant = 0
+po =(tam/100)*10
+alert("Quantidade necessária de pó de café: "+po+" gr
+
+
+
+
+EXERCICIO 04
+
+var saldo = 900
+var valor = 0
+if(saldo <=350){
+    valor=saldo*0.10
+    console.log (valor)
+}
+else if(saldo <=600){
+    valor=saldo*0.20
+    console.log (valor)
+}
+else if(saldo <=850){
+    valor=saldo*0.35
+    console.log (valor)
+}
+else{
+    valor=saldo*0.55
+    console.log (valor)
+}
